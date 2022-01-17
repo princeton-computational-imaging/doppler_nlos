@@ -25,7 +25,7 @@ The code and data is organized as in the following directory
             radar_left_np # input radar data
                 xxxx.npy # contains a n x 10 array, where n is the total number
                 of radar points, in each row, the first two values are the x,y
-                point location in the car coordicate (m), the third is the
+                point location in the car coordinate (m), the third is the
                 Doppler velocity (m/s), the fourth is the amplitude, the fifth
                 is the distance from the sensor (m), the last value is the label
                 for object category and should not be used as method input.
@@ -55,7 +55,7 @@ tracking-train-eval.ipynb for the detection and tracking tasks, respectively.
 If you find it is useful, please cite
 ```
 @InProceedings{scheiner2019seeing,
-author={Scheiner, Nicolas and Kraus, Florian and Wei, Fangyin and Phan, Buu and Mannan, Fahim and Appenrodt, Nils and Ritter, Werner and Dickmann, Jurgen and Dietmayer, Klaus and Sick, Bernhard and others},
+author={Scheiner, Nicolas and Kraus, Florian and Wei, Fangyin and Phan, Buu and Mannan, Fahim and Appenrodt, Nils and Ritter, Werner and Dickmann, J{\"u}rgen and Dietmayer, Klaus and Sick, Bernhard and others},
 title={Seeing Around Street Corners: Non-Line-of-Sight Detection and Tracking In-the-Wild Using Doppler Radar},
 booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
 month = {June},
